@@ -13,6 +13,7 @@ const languages: {
   [id: string]: Language;
 } = {
   agda: { module: "tree-sitter-agda" },
+  angelscript: { module: "tree-sitter-angelscript" },
   c: { module: "tree-sitter-c" },
   clojure: { module: "tree-sitter-clojure" },
   cpp: { module: "tree-sitter-cpp" },
